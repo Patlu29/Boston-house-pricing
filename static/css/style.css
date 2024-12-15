@@ -1,20 +1,63 @@
-body{
-    background-color: rgb(119, 180, 234);
-    margin: auto;
-}
-form{
-    margin-left: 650px;
-    margin-top: 100px;
-}
-.output{
-    border: 1px solid rgb(85, 18, 18);
-    margin-left: 650px;
-    margin-right: 700px;
-}
-div > h1{
-    margin-left: 550px;
-}
-input{
-    background-color: rgb(234, 250, 195);
-    color: rgb(246, 25, 128);
-}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Login Section */
+  .login {
+    width: 50%;
+    margin: 50px auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+  }
+  
+  .login h1 {
+    font-family: 'Pacifico', cursive; /* Use Pacifico font for title */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex; /* Arrange inputs in a row */
+    flex-direction: column; /* Stack inputs vertically */
+    width: 100%; /* Fill the login div */
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #333; /* Adjust button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable element */
+  }
+  
+  form button:hover {
+    background-color: #444; /* Button hover effect */
+  }
+  
+  /* Output Section */
+  .output {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .output h3 {
+    font-family: 'Arimo', sans-serif; /* Use Arimo font for output heading */
+    margin-bottom: 10px;
+  }
